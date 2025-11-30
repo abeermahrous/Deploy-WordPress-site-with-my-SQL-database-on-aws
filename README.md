@@ -81,7 +81,7 @@ node1    2         69d
 node2    2         69d
 
 
-ubuntu@master:~$ kubectl create secret generic dolfined-project \
+ubuntu@master:~$ kubectl create secret generic onlineshop-project \
      --namespace kube-system \
      --from-literal "key_id=AK************" \
      --from-literal "access_key=ie**********"
